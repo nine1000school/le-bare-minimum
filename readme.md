@@ -82,11 +82,7 @@ You can add `-s [SECTION]` to limit the entries to a specific section.
 
 Try `apropos -s 1 ssh` and compare to `apropos -s 3 ssh`
 
-You may need to initialize its database using:
-
-```sh
-sudo makewhatis
-```
+You may need to initialize its database using: `sudo makewhatis`
 
 #### `whatis`
 
@@ -118,6 +114,16 @@ Try `whatis df` and compare it to `apropos df`.
 
 #### `true` & `false`
 
+#### `tee`
+
+#### `ps`
+
+#### `curl`
+
+#### `grep`
+
+#### `touch`
+
 #### `ls`
 
 #### `cd`
@@ -127,6 +133,10 @@ If you have to go back and forth between two folders or simply return to the pre
 ```sh
 cd -
 ```
+
+#### `iptables`
+
+#### `ufw`
 
 ### shell scripting
 
